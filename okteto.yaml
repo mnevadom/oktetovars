@@ -1,0 +1,8 @@
+
+# context: https://okteto.testidf.dev.okteto.net/
+
+deploy: 
+  - echo hola
+  - cat ${MY_FILE}
+  - cat ${MY_FILE2}
+  
